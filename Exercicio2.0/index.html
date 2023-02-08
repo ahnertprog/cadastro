@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+</head>
+
+
+<body>
+    <div class="border">
+        <h1>Página de cadastro</h1>
+    <form action="" method="post">
+        <label class="name">
+                    Nome Completo <br>
+                <input type="text" required> 
+        </label>
+            <br><br>
+        <label class="idade">
+                    Idade <br>
+                <input type="date" required>
+        </label>
+            <br><br>
+        <label class="email">
+                    E-mail <br>
+                <input type="email">
+        </label>
+            <br><br>
+        <label class="senha">
+                    Senha <br>
+                <input type="password">
+        </label>
+            <br><br>
+        <label class="cfsenha">
+                    Confirme sua senha <br>
+            <input type="password" required>
+        </label>
+        <br><br>
+        <div class="sexo">
+            Sexo
+            <br>
+        <select name="Sexo" id="sexo" required>
+            <option>
+                Masculino
+            </option>
+            <option>
+                Feminino
+            </option>
+            <option>
+                Outro
+            </option>
+        </select>
+        </div>
+        <div class="termos">
+            Eu li e concordo com os <a href="">termos de uso </a> 
+            <input class="verde" type="checkbox" required>
+        </div>
+        <label>
+            <input type="submit">
+        </label>
+    </form>
+    </div>
+                
+
+    
+</body>
+</html>
